@@ -1,9 +1,14 @@
-body {
-    margin: 60px auto;
-    width: 70%;
+/* Main CSS file for sailormary13.github.io
+@author mkcummins
+*/
+
+/* thanks for getting me started, http://jmcglone.com/guides/github-pages/*/
+nav {
+    padding: 3% 5% 1% 5%;
+    background-color: lightyellow;
 }
+
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -19,18 +24,16 @@ a {
 a:hover {
     text-decoration: underline;
 }
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
 p {
-    font-size: 1.5em;
-    line-height: 1.4em;
+    font-size: 1em;
+    line-height: 1.1em;
     color: #333;
 }
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
+    margin-top: 20px;
+    padding: 2% 5%;
 }
 
 ul.posts {
@@ -40,4 +43,26 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+
+.likeToDoIcon {
+    max-width: 200px;
+}
+
+.likeToDoCol {
+    text-align: center;
+}
+
+section {
+    margin-top: 20px;
+    padding: 8% 5%;
+}
+
+.hiSection {
+    margin-top: 10px;
+    padding: 5%
+}
+
+.oddSection {
+    background-color: lightyellow;
 }
