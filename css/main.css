@@ -5,7 +5,6 @@
 /* thanks for getting me started, http://jmcglone.com/guides/github-pages/*/
 nav {
     padding: 3% 5% 1% 5%;
-    background-color: lightyellow;
 }
 
 nav ul, footer ul {
@@ -32,7 +31,7 @@ p {
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
-    margin-top: 20px;
+    margin-top: 30px;
     padding: 2% 5%;
 }
 
@@ -61,8 +60,4 @@ section {
 .hiSection {
     margin-top: 10px;
     padding: 5%
-}
-
-.oddSection {
-    background-color: lightyellow;
 }
