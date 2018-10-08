@@ -8,7 +8,7 @@
         <link rel="stylesheet" type="text/css" href="./css/main.css">
     </head>
 	<body>
-		<nav>
+		<nav class="oddSection">
     		<ul>
         		<li><a href="/">Home</a></li>
 	        	<li><a href="/about">About</a></li>
@@ -16,52 +16,54 @@
         		<li><a href="/blog">Blog</a></li>
     		</ul>
 		</nav>
-        <section class="hiSection">
+        <section class="hiSection oddSection">
 		<div class="container-fluid">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Mary Cummins!</h1>
-    		</div><!-- /.blurb -->
+            <div class="row">
+                <div class="col-sm-7">
+            		<h1>Hi there, I'm Mary Cummins.</h1>
+                    <p id="introP">
+                        I'm a programmer, mathematician, and designer. I'm currently interested in JavaScript, functional programming, system design, UX, and agile development.
+                    </p>
+                </div>
+                <div class="col-sm-5">
+                    <img src="./images/placeholderIcon.svg" alt="circle" id="profilePic">
+                </div>
+                <!-- <p id="intoP">
+                    I like programming, mathematics, and user experience design. After a math degree and a few years of teaching, I returned to school to pursue a degree in Web/Software Development.
+                    My strengths are abstract reasoning, recognizing structure, and working on a team. I plan to graduate in May 2019 and start a career as a Software Engineer.
+                    My interests in JavaScript and UX seem to be directing me towards Front-End Development.
+                </p> -->
+            </div>
         </div>
         </section>
-        <section class ="oddSection">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col">
-                <h5>Three things I like to do:</h5>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4 likeToDoCol">
-                    <p>Programming</p>
-                <img src="./images/placeholderIcon.svg" alt="circle" class="likeToDoIcon">
-                </div>
-                <div class="col-sm-4 likeToDoCol">
-                    <p>UX Design</p>
-                    <img src="./images/placeholderIcon.svg" alt="circle" class="likeToDoIcon">
-                </div>
-                <div class="col-sm-4 likeToDoCol">
-                    <p>Mathematics</p>
-                    <img src="./images/placeholderIcon.svg" alt="circle" class="likeToDoIcon">
-                </div>
-            </div>
-        </section>
         <section>
+        <div class="container-fluid">
+                <h5>What I've been working on...</h5>
             <div class="row">
-                <div class="col">
-                <h5>Three things I've worked on:</h5>
+                <div class="col-sm-4 likeToDoCol">
+                    <a href="http://google.com"><h6>Crew Finder</h6></a>
+                <a href="http://google.com"><img src="./images/placeholderIcon.svg" alt="circle" class="likeToDoIcon"></a>
+            </div>
+                <div class="col-sm-4 likeToDoCol">
+                    <h6>TDS Web Presence</h6>
+                    <img src="./images/placeholderIcon.svg" alt="circle" class="likeToDoIcon">
+                </div>
+                <div class="col-sm-4 likeToDoCol">
+                    <h6>Best Calculator</h6>
+                    <img src="./images/placeholderIcon.svg" alt="circle" class="likeToDoIcon">
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-4 likeToDoCol">
-                    <p>CrewFinder</p>
+                    <h6>File Analyzer</h6>
                 <img src="./images/placeholderIcon.svg" alt="circle" class="likeToDoIcon">
                 </div>
                 <div class="col-sm-4 likeToDoCol">
-                    <p>TDS Web</p>
+                    <h6>RaceDay UX</h6>
                     <img src="./images/placeholderIcon.svg" alt="circle" class="likeToDoIcon">
                 </div>
                 <div class="col-sm-4 likeToDoCol">
-                    <p>File Analyzer</p>
+                    <h6>Math for Fun</h6>
                     <img src="./images/placeholderIcon.svg" alt="circle" class="likeToDoIcon">
                 </div>
             </div>
