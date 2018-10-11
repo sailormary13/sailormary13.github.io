@@ -72,10 +72,6 @@ h5 {
     margin-bottom: 25px;
 }
 
-#profilePic {
-    max-width:;
-}
-
 @media screen and (max-width: 576px) {
   #profilePic {
     display: block;
