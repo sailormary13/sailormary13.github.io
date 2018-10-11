@@ -62,10 +62,12 @@ section {
 
 h1 {
     padding-top: 5%;
+    max-width: 600px;
 }
 
 #profilePic {
     display: block;
+    width: 100%;
     margin: auto;
     max-width: 200px;
 }
@@ -80,14 +82,14 @@ h6 {
     margin-top: 5%;
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 700px) {
   h1, #introP {
     text-align: center;
   }
 }
 
-@media screen { @media (min-width: 575px) {
-    h1, #introP {
-      text-align: center;
-    }
+@media screen and (max-width: 800px) {
+  h1 {
+    padding-top: 1%;
+  }
 }
