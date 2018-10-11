@@ -4,7 +4,7 @@
 
 /* thanks for getting me started, http://jmcglone.com/guides/github-pages/*/
 nav {
-    padding: 4% 5% .5% 5%;
+    padding: 4% 5% 0.5% 5%;
 }
 
 nav ul, footer ul {
@@ -43,22 +43,30 @@ ul.posts li {
 }
 
 .likeToDoIcon {
-    margin-bottom: 20px;
+    margin-bottom: 1%;
+    max-width: 400px;
 }
 
 .likeToDoCol {
     text-align: center;
+    padding: 5% 5% 2% 5%;
 }
 
 section {
-    padding: 10% 5%;
+    padding: 10% 5% 12% 5%;
 }
 
 .oddSection {
     background-color: #f9f9f9;
 }
 
+h1 {
+    padding-top: 5%;
+}
+
 #profilePic {
+    display: block;
+    margin: auto;
     max-width: 200px;
 }
 
@@ -68,17 +76,12 @@ section {
 
 h6 {
     font-weight: bold;
-    margin-bottom: 15px;
-    margin-top: 40px;
+    margin-bottom: 8%;
+    margin-top: 5%;
 }
 
-h5 {
-    margin-bottom: 25px;
-}
-
-@media screen and (max-width: 576px) {
-  #profilePic {
-    display: block;
-    margin: 0 auto;
+@media screen and (max-width: 575px) {
+  h1, #introP {
+    text-align: center;
   }
 }
