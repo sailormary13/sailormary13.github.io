@@ -3,6 +3,10 @@
 */
 
 /* thanks for getting me started, http://jmcglone.com/guides/github-pages/*/
+body {
+    color: #2f3030;
+}
+
 nav {
     padding: 4% 5% 0.5% 5%;
 }
@@ -10,23 +14,42 @@ nav {
 nav ul, footer ul {
     padding: 0px;
     list-style: none;
-    font-weight: bold;
 }
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
+    font-size: 1.2em;
 }
+
 a {
     text-decoration: none;
-    color: #999;
+    color: #6d6d6d;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: 2px;
 }
+
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color: #6d6d6d;
 }
+
+ul a::after, a h6::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1.3px;
+    background: #6d6d6d;
+    transition: width .3s;
+}
+
+ul a:hover::after, a h6:hover::after {
+    width: 100%;
+}
+
 p {
     font-size: 1em;
     line-height: 1.1em;
-    color: #333;
 }
 footer {
     font-size: .8em;
@@ -44,7 +67,9 @@ ul.posts li {
 
 .likeToDoIcon {
     margin-bottom: 1%;
-    max-width: 400px;
+    width: 100%;
+    max-width: 450px;
+    margin-top: 5%;
 }
 
 .likeToDoCol {
@@ -53,7 +78,7 @@ ul.posts li {
 }
 
 section {
-    padding: 10% 5% 12% 5%;
+    padding: 12% 5% 12% 5%;
 }
 
 .oddSection {
@@ -62,33 +87,52 @@ section {
 
 h1 {
     padding-top: 5%;
+    font-size: 3em;
 }
 
 #profilePic {
     display: block;
     width: 100%;
     margin: auto;
-    max-width: 200px;
+    max-width: 300px;
 }
 
 #introP {
     max-width: 600px;
+    line-height: 1.4;
+    font-size: 1.1em;
 }
 
 h6 {
-    font-weight: bold;
-    margin-bottom: 8%;
+    font-size: 1.3em;
+    font-weight: normal;
+    /* margin-bottom: 8%; */
     margin-top: 5%;
 }
 
-@media screen and (max-width: 800px) {
-  h1, #introP {
-    text-align: center;
+@media screen and (max-width: 900px) {
+  h1 {
+    padding-top: 0%;
+  }
+  #introP {
+      font-size: 1em;
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 767.5px) {
   h1 {
-    padding-top: 1%;
+    padding-top: 5%;
+    font-size: 2.4em;
+    text-align: center;
   }
+  #profilePic {
+      max-width: 250px;
+  }
+  #introP {
+      text-align: center;
+  }
+}
+
+h3 {
+    margin-bottom: 2%;
 }
