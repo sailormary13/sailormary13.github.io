@@ -2,7 +2,6 @@
 @author mkcummins
 */
 
-/* thanks for getting me started, http://jmcglone.com/guides/github-pages/*/
 body {
     color: #2f3030;
 }
@@ -68,7 +67,6 @@ ul.posts li {
 .likeToDoIcon {
     margin-bottom: 1%;
     width: 100%;
-    max-width: 450px;
     margin-top: 5%;
 }
 
@@ -94,7 +92,7 @@ h1 {
     display: block;
     width: 100%;
     margin: auto;
-    max-width: 300px;
+    max-width: 600px;
 }
 
 #introP {
