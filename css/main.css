@@ -4,15 +4,17 @@
 
 body {
     color: #2f3030;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 nav {
-    padding: 4% 4% 0.5% 4%;
+    padding: 3% 3% 3% 3%;
+    background-color: #fff;
 }
 
 nav ul, footer ul {
     list-style: none;
+    margin-bottom: 0;
 }
 nav ul li, footer ul li {
     display: inline;
@@ -22,14 +24,14 @@ nav ul li, footer ul li {
 
 a {
     text-decoration: none;
-    color: #6d6d6d;
+    color: #2f3030;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
 
 a:hover {
     text-decoration: none;
-    color: #6d6d6d;
+    color: #2f3030;
     font-weight: bold;
 }
 
@@ -46,15 +48,6 @@ footer {
     padding: 3% 5%;
 }
 
-ul.posts {
-    margin: 20px auto 40px;
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
-}
-
 section {
     padding: 10% 5% 10% 5%;
 }
@@ -66,6 +59,7 @@ section {
 h1 {
     padding-top: 3%;
     font-size: 5em;
+    font-family: 'Bitter', serif;
 }
 
 h1, h2, h3, h4 {
@@ -73,17 +67,42 @@ h1, h2, h3, h4 {
         line-height: 1.2;
 }
 
+h3 {
+    text-align: center;
+}
+
 #profilePic {
     display: block;
-    width: 90%;
+    width: 33%;
     margin: auto;
 }
 
+#headerTextDiv {
+    text-align: center;
+}
+
 .introP {
-    max-width: 800px;
     line-height: 1.4;
     font-size: 1.4em;
-    padding: 1%;
+    margin-bottom: 8%;
+}
+
+#jobs-icon-section {
+    padding-bottom: 1%;
+}
+
+#job-icon-div {
+    border-radius: 10px;
+    border: 2px solid #f9f9f9;
+    margin-top: -23%;
+    padding: 3% 4% 3% 4%;
+    background-color: #fff;
+}
+
+.fas {
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 h6 {
@@ -102,13 +121,9 @@ h6 {
   h1 {
     padding-top: 5%;
     font-size: 2.6em;
-    text-align: center;
   }
   #profilePic {
       max-width: 250px;
-  }
-  .introP {
-      text-align: center;
   }
 }
 
@@ -124,6 +139,7 @@ h6 {
 
 h3 {
     margin-bottom: 5%;
+    font-family: 'Bitter', serif;
 }
 
 article {
