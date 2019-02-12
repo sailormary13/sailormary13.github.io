@@ -156,9 +156,19 @@ h4 {
 }
 
 .portfolio-img {
-    max-width: 70%;
+    max-width: 90%;
     display: block;
     margin: auto;
+    margin-bottom: 30px;
+}
+
+.portfolio-row {
+    margin-bottom: 80px;
+}
+
+.portfolio-row > div > p > a {
+    text-transform: none;
+    letter-spacing: 0px;
 }
 
 @media screen and (min-width: 1024px) {
