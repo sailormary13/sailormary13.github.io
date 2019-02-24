@@ -95,7 +95,7 @@ h3 {
 #job-icon-div {
     border-radius: 10px;
     border: 2px solid #f9f9f9;
-    margin-top: -23%;
+    margin-top: -18%;
     padding: 3% 4% 3% 4%;
     background-color: #fff;
 }
@@ -104,7 +104,7 @@ h3 {
     display: block;
     margin-bottom: 30px;
     margin-top: 40px;
-    font-size: 2em;
+    font-size: 1.6em;
 }
 
 h6 {
@@ -203,11 +203,20 @@ article li {
     align-self: flex-end;
 }
 
-.card {
-    margin-bottom: 4em;
-    margin-right: 2%;
-}
-
 .header-info {
     margin-bottom: 5%;
+}
+
+/*********** cards ************/
+.card {
+    border: none;
+    margin: 10px 10px 15px 10px;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-text {
+    text-align: center;
 }

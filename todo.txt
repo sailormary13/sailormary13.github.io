@@ -1,11 +1,18 @@
-TO DO
--compress images
--content for the linking pages
--social media / contact icons
--oh f*ck, the nav
+
 
 MVP:
-content for the linking pages... interesting
-social media / contact
+content:
+    images, especially for sail fast and quiz editor.
+    headings, like challenge/goal/process/results.
+    change TDS content to specific projects like TDS Careers and TDS Marketing Campaigns and TDS Help & Support
+make sure images are compressed.
+link images and titles under featured work.
+fav-icon.
+pick a color scheme.
+make sure it's accessible (do font awesome icons need alt text?)
+make sure it's SEO optimized (is there a meta descrip?)
+and be done!
 
-UPDATE RESUME!
+update resume or just remove it. maybe just remove it. it's just a pdf. that isn't even updated!
+
+also starting a blog would probs be good :)
