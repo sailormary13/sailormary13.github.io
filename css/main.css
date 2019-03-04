@@ -35,6 +35,19 @@ a:hover {
     font-weight: bold;
 }
 
+.portfolio-row li > a, p > a {
+    text-decoration: underline;
+    color: #2f3030;
+    text-transform: none;
+    letter-spacing: normal;
+}
+
+.portfolio-row li > a:hover, p > a:hover {
+    text-decoration: underline;
+    color: #2f3030;
+    font-weight: bold;
+}
+
 a img {
     display: block;
 }
