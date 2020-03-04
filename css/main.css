@@ -171,7 +171,7 @@ article li {
 }
 
 .card-img-top {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
 }
 
 a .card-img-top:hover {
@@ -183,7 +183,7 @@ a .card-img-top:hover {
     display: block;
     margin: auto;
     margin-bottom: 25px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
 }
 
 .portfolio-row {
@@ -191,7 +191,11 @@ a .card-img-top:hover {
 }
 
 .portfolio-project {
-    margin-bottom: 3em;
+    margin-bottom: 130px;
+}
+
+.portfolio-project:last-child {
+    margin-bottom: 65px;
 }
 
 .portfolio-row > div > p > a {
